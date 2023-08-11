@@ -1,0 +1,25 @@
+.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light{
+
+  background-color: #EEEEEE !important;
+}
+.title{
+  font-size: 32px;
+  color: #018762;
+  padding-left: 50px;
+}
+.ms-auto{
+  padding-right: 50px;
+  font-size: 16px;
+  
+}
+
+
+.nav-link{
+  color: #1F1F1F !important;
+  font-size: 16px;
+}
+.nav-link-add{
+  color:  #018762 !important;
+  font-size: 16px;
+}
+

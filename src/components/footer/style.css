@@ -1,0 +1,75 @@
+.containerFooter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 75%;
+    height: 151px;    
+    border-top: 1px solid #B0E0D3;
+   
+}
+
+.containerLinks{
+    width: 25%;
+    
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.containerLinks a{
+    
+    text-decoration: none;
+    color: #1F1F1F;
+    font-size: 16px;
+}
+.containerMedias{
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.challengeText{
+    font-size: 12px;
+    color:#515151 ;
+}
+
+@media (max-width: 1372px){
+    .containerLinks{
+        
+        min-width: 33%;
+        
+    }
+   
+}
+@media (max-width: 1018px){
+    .containerLinks{
+        
+        min-width: 50%;
+        
+    }
+    
+
+}
+@media (max-width: 678px){
+    .containerLinks{
+        
+        min-width: 80%;
+        
+    }
+    
+
+}
+@media (max-width: 424px){
+    .containerLinks{
+        
+        min-width: 100%;
+        
+    }
+    .containerLinks a{
+        margin-top: 20px;
+    }
+
+}

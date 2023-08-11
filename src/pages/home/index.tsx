@@ -1,14 +1,17 @@
 import Footer from '@/components/footer'
 import HomeMain from '@/components/homemain'
 import Navbar from '@/components/navbar/Index'
-import Home from '@/pages/home'
-import "./globals.css"
+import React from 'react'
 
-
-export default function App() {
+function home() {
   return (
     <div>
-      <Home/>
+        <Navbar/>
+        <HomeMain/>
+        <Footer/>
+      
     </div>
   )
 }
+
+export default home
